@@ -751,6 +751,10 @@ em {
     line-height: 1.6;
 }
 
+.site-footer p a{
+    color: var(--green-3);
+}
+
 .site-footer>a:last-child {
     font-size: 10px;
     font-weight: 600;
