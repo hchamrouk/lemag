@@ -136,10 +136,6 @@ a:focus-visible {
     background: rgba(255, 255, 255, .2);
 }
 
-.top-link {
-    color: white;
-}
-
 .top-link span {
     font-size: 14px;
     margin-left: 5px;
@@ -246,22 +242,9 @@ em {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: var(--ink);
-    color: #fff;
-}
+    background: linear-gradient(155deg, #8fc5a2, #14533e);
 
-.orbit-art {
-    position: absolute;
-    inset: 0 0 43% 0;
-    overflow: hidden;
-    opacity: .95;
-    background-color: #0e2b22;
-    background-image:
-        radial-gradient(circle at 31% 76%, transparent 0 9%, rgba(183, 229, 186, .95) 9.2% 9.7%, transparent 10% 17%, rgba(183, 229, 186, .9) 17.2% 17.7%, transparent 18% 25%, rgba(143, 197, 162, .9) 25.2% 25.7%, transparent 26% 33%, rgba(183, 229, 186, .85) 33.2% 33.7%, transparent 34% 42%, rgba(183, 229, 186, .75) 42.2% 42.7%, transparent 43%),
-        radial-gradient(circle, rgba(227, 246, 230, .9) 1px, transparent 1.65px);
-    background-size: auto, 5px 5px;
-    -webkit-mask-image: radial-gradient(ellipse at 31% 76%, #000 0 76%, transparent 96%);
-    mask-image: radial-gradient(ellipse at 31% 76%, #000 0 76%, transparent 96%);
+    color: #fff;
 }
 
 .feature-copy {
@@ -575,14 +558,6 @@ em {
     transition: transform .2s ease, filter .2s ease;
 }
 
-.theme-tile::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: linear-gradient(rgba(255, 255, 255, .12) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .12) 1px, transparent 1px);
-    background-size: 34px 34px;
-}
-
 .theme-tile:hover {
     transform: translateY(-5px);
     filter: saturate(1.12);
@@ -801,7 +776,7 @@ em {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 821px) {
     .site-shell {
         padding: 8px;
     }
