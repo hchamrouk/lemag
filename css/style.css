@@ -66,8 +66,8 @@ a:focus-visible {
 }
 
 .hero {
-    min-height: 650px;
-    height: min(66vw, 790px);
+    min-height: 500px;
+    height: calc(100dvh - 28px);
     position: relative;
     overflow: hidden;
     isolation: isolate;
@@ -186,12 +186,12 @@ em {
     margin-top: 36px;
 }
 
-.hero-bottom p {
+.hero-bottom img {
     margin: 0;
-    max-width: 390px;
-    color: #e3f6e6;
+    max-width: 100px;
+    /* color: #e3f6e6;
     font-size: 13px;
-    line-height: 1.6;
+    line-height: 1.6; */
 }
 
 .pill-button {
@@ -829,14 +829,14 @@ em {
     }
 
     .hero-bottom {
-        align-items: flex-start;
-        flex-direction: column;
+        /* align-items: flex-start; */
+        /* flex-direction: column; */
         margin-top: 26px;
     }
 
-    .hero-bottom p {
+    /* .hero-bottom img {
         font-size: 11px;
-    }
+    } */
 
     .sparkle-one {
         top: 25%;
@@ -1010,9 +1010,9 @@ body {
     font-size: clamp(68px, 9.3vw, 150px);
 }
 
-.hero-bottom p {
+/* .hero-bottom p {
     font-size: clamp(15px, 1.05vw, 18px);
-}
+} */
 
 .pill-button {
     font-size: clamp(13px, .9vw, 15px);
@@ -1121,9 +1121,9 @@ body {
         font-size: 10px;
     }
 
-    .hero-bottom p {
+    /* .hero-bottom p {
         font-size: 14px;
-    }
+    } */
 
     .main-nav a {
         font-size: 11px;
