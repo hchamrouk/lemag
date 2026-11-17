@@ -1350,3 +1350,67 @@ body {
         height: 155px;
     }
 }
+
+.event-section,
+.media-section {
+    scroll-margin-top: 24px;
+}
+
+.event-kicker {
+    font-size: 12px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.event-layout {
+    display: grid;
+    grid-template-columns: minmax(170px, 280px) 1fr;
+    gap: 18px;
+    background: #e4eee5;
+    border: 1px solid var(--line);
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.calendar-card {
+    background: var(--green-4);
+    color: white;
+    border-radius: 18px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.calendar-month,
+.calendar-day {
+    font-size: 13px;
+    letter-spacing: .16em;
+    font-weight: 700;
+}
+
+.calendar-card strong {
+    font-size: clamp(90px, 11vw, 145px);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -.09em;
+}
+
+.event-details {
+    align-self: center;
+    padding: 15px 22px;
+}
+
+.event-time {
+    font-size: clamp(20px, 2.5vw, 34px);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.event-details h3,
+.media-panel h3 {
+    font-size: clamp(23px, 2.7vw, 38px);
+    letter-spacing: -.04em;
+}

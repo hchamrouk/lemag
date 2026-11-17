@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LE MAG//Conference//FR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:conference-lemag-20270423@lycee-cci-gard
+DTSTAMP:20261117T090000Z
+DTSTART;TZID=Europe/Paris:20270423T100000
+DTEND;TZID=Europe/Paris:20270423T121500
+SUMMARY:Conférence — Génération connectée, à quel prix ?
+DESCRIPTION:Conférence du projet éditorial LE MAG. Intervenants et modalités à confirmer.
+END:VEVENT
+END:VCALENDAR
