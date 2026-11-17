@@ -62,7 +62,7 @@ a:focus-visible {
     font-weight: 600;
     letter-spacing: .11em;
     line-height: 1.5;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .hero {
@@ -150,6 +150,12 @@ a:focus-visible {
 .hero-eyebrow {
     margin: 0 0 24px;
     color: #e3f6e6;
+}
+
+.hero-eyebrow span{
+    /* background-color: red; */
+    font-weight: 100;
+    font-style: italic;
 }
 
 h1,
@@ -546,11 +552,12 @@ em {
 }
 
 .theme-tile {
-    min-height: 220px;
+    /* min-height: 10px; */
     min-width: 250px;
     flex: 1;
     padding: 14px;
     border-radius: 17px;
+    gap: 8px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -769,9 +776,9 @@ em {
         grid-template-columns: repeat(4, 1fr);
     } */
 
-    .theme-tile {
+    /* .theme-tile {
         min-height: 180px;
-    }
+    } */
 
     .topic-row {
         grid-template-columns: 44px 1fr 18px;
@@ -820,7 +827,7 @@ em {
     }
 
     .hero-eyebrow {
-        max-width: 250px;
+        /* max-width: 250px; */
         font-size: 8px;
     }
 
@@ -909,10 +916,6 @@ em {
     .theme-grid {
         /* grid-template-columns: repeat(2, 1fr); */
         gap: 8px;
-    }
-
-    .theme-tile {
-        min-height: 165px;
     }
 
     .topic-heading {
@@ -1118,7 +1121,7 @@ body {
     }
 
     .hero-eyebrow {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     /* .hero-bottom p {
@@ -1166,10 +1169,6 @@ body {
         font-size: 10px;
     }
 
-    .theme-name {
-        font-size: clamp(20px, 5.5vw, 26px);
-    }
-
     .topic-heading h3 {
         font-size: 16px;
     }
@@ -1187,7 +1186,7 @@ body {
     }
 
     .site-footer p {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 /* =========================================================
