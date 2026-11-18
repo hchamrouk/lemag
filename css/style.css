@@ -571,37 +571,37 @@ em {
 
 .theme-1 {
     /* background: linear-gradient(155deg, #a9dbb3, #288760); */
-    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/petite_enfance_et_ecrans.jpg');
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/petite_enfance_et_ecrans.webp');
 }
 
 .theme-2 {
     /* background: linear-gradient(155deg, #5ca87c, #1a5140); */
-    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/identite_numerique_et_image_de_soi.jpg');
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/identite_numerique_et_image_de_soi.webp');
 }
 
 .theme-3 {
     /* background: linear-gradient(155deg, #288760, #0e3a2d); */
-    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/cyberharcelement.jpg');
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/cyberharcelement.webp');
 }
 
 .theme-4 {
     /* background: linear-gradient(155deg, #1a5140, #08251d); */
-    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/algorithme_&_attention.jpg');
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/algorithme_&_attention.webp');
 }
 
 .theme-5 {
     /* background: linear-gradient(155deg, #8fc5a2, #14533e); */
-    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/sommeil_&_reussite_scolaire.jpg');
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/sommeil_&_reussite_scolaire.webp');
 }
 
 .theme-6 {
     /* background: linear-gradient(155deg, #5ca87c, #0e3a2d); */
-    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/droit_&_protection.jpg');
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/droit_&_protection.webp');
 }
 
 .theme-7 {
     /* background: linear-gradient(155deg, #b7e5ba, #1a5140); */
-    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/dialogue_&_solutions.jpg');
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/dialogue_&_solutions.webp');
 }
 
 .theme-count,
