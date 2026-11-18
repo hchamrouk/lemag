@@ -559,6 +559,8 @@ em {
     justify-content: space-between;
     overflow: hidden;
     color: white;
+    background-size: cover; 
+    background-position: 50%;
     transition: transform .2s ease, filter .2s ease;
 }
 
@@ -568,31 +570,38 @@ em {
 }
 
 .theme-1 {
-    background: linear-gradient(155deg, #a9dbb3, #288760);
+    /* background: linear-gradient(155deg, #a9dbb3, #288760); */
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/petite_enfance_et_ecrans.jpg');
 }
 
 .theme-2 {
-    background: linear-gradient(155deg, #5ca87c, #1a5140);
+    /* background: linear-gradient(155deg, #5ca87c, #1a5140); */
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/identite_numerique_et_image_de_soi.jpg');
 }
 
 .theme-3 {
-    background: linear-gradient(155deg, #288760, #0e3a2d);
+    /* background: linear-gradient(155deg, #288760, #0e3a2d); */
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/cyberharcelement.jpg');
 }
 
 .theme-4 {
-    background: linear-gradient(155deg, #1a5140, #08251d);
+    /* background: linear-gradient(155deg, #1a5140, #08251d); */
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/algorithme_&_attention.jpg');
 }
 
 .theme-5 {
-    background: linear-gradient(155deg, #8fc5a2, #14533e);
+    /* background: linear-gradient(155deg, #8fc5a2, #14533e); */
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/sommeil_&_reussite_scolaire.jpg');
 }
 
 .theme-6 {
-    background: linear-gradient(155deg, #5ca87c, #0e3a2d);
+    /* background: linear-gradient(155deg, #5ca87c, #0e3a2d); */
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/droit_&_protection.jpg');
 }
 
 .theme-7 {
-    background: linear-gradient(155deg, #b7e5ba, #1a5140);
+    /* background: linear-gradient(155deg, #b7e5ba, #1a5140); */
+    background-image: linear-gradient(90deg, rgba(7, 48, 36, 0.78), rgba(7, 48, 36, 0.35)),url('../public/themes/dialogue_&_solutions.jpg');
 }
 
 .theme-count,
